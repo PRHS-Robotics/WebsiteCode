@@ -8,30 +8,33 @@ p{
 }
 
 .header{
-	background-color: #000099;
+	background-color: #000060;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height:80px;
+	height:60px;
 	width:100%;
+	padding-top: 20px;
 	
 }
 
 h1.head{
 	text-align: center;
-	color: #FFCC00;
+	color: #CFB53B;
 }
 
 body {
 	background-image: url("./assets/background.png");
 	background-repeat: no-repeat;
 	background-position: center top;
+	background-size: 100%;
+	font-family: sans-serif;
 }
 
 .body {
-	background-color: #FFCC00;
+	background-color: #CFB53B;
 	opacity: .95;
 	filter: alpha(opacity = calc(100 * .95)); /* For IE8 and earlier */
 	position: fixed;
@@ -39,14 +42,14 @@ body {
 	left: 100px;
 	width: calc(100% - 100px - 10px);
 	height: calc(100% - 80px - 10px);
-	padding: 5px;
+	padding: 10px;
 	overflow-y: auto;
 }
 
 /*nav - bar to right of page used for navigation and any widgets such as log in / create account*/
 .nav{
-	background-color: #000099;
-	color: #FFCC00;
+	background-color: #000060;
+	color: #CFB53B;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
@@ -54,8 +57,9 @@ body {
 	left: 0px;
 	min-height:calc(100% - 80px);
 	height: inherit;
-	width:100px;
+	width:85px;
 	overflow: hidden;
+	padding-left: 15px;
 }
 
 .nav ul{
@@ -64,7 +68,7 @@ body {
 
 .nav a{
 	text-decoration: none;
-	color: #FFCC00;
+	color: #CFB53B;
 	display: block;
 	width: 100px;
 	padding-left:5px;
@@ -79,13 +83,13 @@ a.normal{
 
 .nav a:hover{
 	color: #000099;
-	background-color: #FFCC00;
+	background-color: #CFB53B;
 }
 
 /*navtop - similar to navigation bar, but at top of screen right below header. Used only for extra links such as different about pages
 that we don't want to include in the main navigation bar.*/
 .navtop{
-	background-color: #000099;
+	background-color: #000060;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
@@ -107,13 +111,13 @@ that we don't want to include in the main navigation bar.*/
 
 .navtop a{
 	text-decoration: none;
-	color: #FFCC00;
+	color: #CFB53B;
 	display: block;
 	height: 30px;
 	padding: 0px 5px 0px 5px; 
 }
 
 .navtop a:hover{
-	color: #000099;
-	background-color: #FFCC00;
+	color: #000060;
+	background-color: #CFB53B;
 }
