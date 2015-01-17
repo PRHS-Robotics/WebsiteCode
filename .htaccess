@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?prrobotics.com$
+RewriteCond %{REQUEST_URI} !^/www/prrobotics/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^www/prrobotics/(.*)$ http://prrobotics/$1
+RewriteCond %{HTTP_HOST} ^(www.)?prrobotics.com$
+RewriteRule ^www/prrobotics/(/)?$ http://prrobotics/index.php [L]
+
+
+

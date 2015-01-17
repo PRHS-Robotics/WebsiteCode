@@ -18,4 +18,5 @@ $from = $name." <".$email.">";
 //$headers = "From: ".$from."\r\n";
 
 sendMessage($email, $name, $sub, $message);
+header('Location: http://www.prrobotics.com');
 ?>

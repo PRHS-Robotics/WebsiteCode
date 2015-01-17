@@ -8,33 +8,31 @@ p{
 }
 
 .header{
-	background-color: #000060;
+	background-color: #000099;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height:60px;
+	height:80px;
 	width:100%;
-	padding-top: 20px;
 	
 }
 
 h1.head{
 	text-align: center;
-	color: #CFB53B;
+	color: #FFCC00;
 }
 
 body {
 	background-image: url("./assets/background.png");
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100%;
-	font-family: sans-serif;
+	background-size: auto;
 }
 
 .body {
-	background-color: #CFB53B;
+	background-color: #FFCC00;
 	opacity: .95;
 	filter: alpha(opacity = calc(100 * .95)); /* For IE8 and earlier */
 	position: fixed;
@@ -42,14 +40,14 @@ body {
 	left: 100px;
 	width: calc(100% - 100px - 10px);
 	height: calc(100% - 80px - 10px);
-	padding: 10px;
+	padding: 25px;
 	overflow-y: auto;
 }
 
 /*nav - bar to right of page used for navigation and any widgets such as log in / create account*/
 .nav{
-	background-color: #000060;
-	color: #CFB53B;
+	background-color: #000099;
+	color: #FFCC00;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
@@ -57,9 +55,8 @@ body {
 	left: 0px;
 	min-height:calc(100% - 80px);
 	height: inherit;
-	width:85px;
+	width:100px;
 	overflow: hidden;
-	padding-left: 15px;
 }
 
 .nav ul{
@@ -68,7 +65,7 @@ body {
 
 .nav a{
 	text-decoration: none;
-	color: #CFB53B;
+	color: #FFCC00;
 	display: block;
 	width: 100px;
 	padding-left:5px;
@@ -83,13 +80,13 @@ a.normal{
 
 .nav a:hover{
 	color: #000099;
-	background-color: #CFB53B;
+	background-color: #FFCC00;
 }
 
 /*navtop - similar to navigation bar, but at top of screen right below header. Used only for extra links such as different about pages
 that we don't want to include in the main navigation bar.*/
 .navtop{
-	background-color: #000060;
+	background-color: #000099;
 	opacity: .85;
 	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
@@ -104,6 +101,10 @@ that we don't want to include in the main navigation bar.*/
 	list-style-type: none;
 }
 
+ul {
+	list-style-type: none;	
+}
+
 .navtop li{
 	display: inline;
 	float: left;
@@ -111,13 +112,30 @@ that we don't want to include in the main navigation bar.*/
 
 .navtop a{
 	text-decoration: none;
-	color: #CFB53B;
+	color: #FFCC00;
 	display: block;
 	height: 30px;
 	padding: 0px 5px 0px 5px; 
 }
 
 .navtop a:hover{
-	color: #000060;
-	background-color: #CFB53B;
+	color: #000099;
+	background-color: #FFCC00;
+}
+
+#kerning {
+	position: absolute;
+	left: 25px;
+	width: 90%;
+}
+
+.thumbnail {
+	padding: 10px;
+	border: 1px solid #333;
+	background-color: #FFF;
+}
+
+.gallerySize {
+	max-width: 526px;
+	max-height: 526px;
 }

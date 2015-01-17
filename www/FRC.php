@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PRHS Bearbotics Team 4068 - About</title>
 <link href="../template.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
 <div class="header">
@@ -21,12 +20,10 @@ include $home.'sidebar.php';
 </ul>
 </div>
 <div class="body">
-	<br>
-	<br>
-	<div id="kerning">
-		<p>FRC (FIRST Robotics Competition) is a program created by FIRST (For Inspiration and Recognition of Science and Technology) designed to inspire
+<br>
+<br>
+<p><font size='5'>FRC (FIRST Robotics Competition) is a program created by FIRST (For Inspiration and Recognition of Science and Technology) designed to inspire
 young high school students to be more interested in science and technology. FIRST is a STEM (Science, Technology, Engineering, and Mathematics) program.</font></p>
-	</div>
 </div>
 </body>
 </html>

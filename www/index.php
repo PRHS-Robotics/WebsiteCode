@@ -14,8 +14,10 @@ $home = './';
 include $home.'sidebar.php';
 ?>
 <div class="body">
-<img src="./assets/collage.png" height="480px"></img>
-<br>This site is still under development, and is not fully functional yet.
+	<img src="./assets/Collage.png" height="480px"></img>
+    <div id="kerning">
+		<br><p>Welcome to the Palmer Ridge Robotics Team 4068 website. We represent Lewis Palmer School District #38. We are a part of FRC (FIRST Robotics Competition) which is an organization that organizes a yearly challenge for teams like us all across the nation to design and program a robot to compete in. The PRHS Bearbotics team has been around since 2011, and has won the Rookie Inspiration Award, an award that is given to the rookie team that has the most potential.</p>
+    </div>
 </div>
 </body>
 </html>

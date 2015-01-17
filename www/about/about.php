@@ -4,6 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PRHS Bearbotics Team 4068 - About</title>
 <link href="../template.css" rel="stylesheet" type="text/css">
+<style>
+img {
+	margin-bottom: 15px;
+}
+</style>
 </head>
 <body>
 <div class="header">
@@ -20,15 +25,15 @@ include $home.'sidebar.php';
 </ul>
 </div>
 <div class="body">
-<br>
-<br>
-<center><img src='../assets/team.jpg' height='200px'><br><h5>2014 Team at competition</h5></img></center>
-<p><font size='5'>The Palmer Ridge Robotics Team (a.k.a. Bearbotics) represents Lewis Palmer School District #38 to FRC - the FIRST Robotics Competition. 
-Anyone and everyone in the district is welcome to join. Every year we are presented with a challenge from FIRST to design, build, and program a 
-robot from scratch to complete a specific task. We don't know what the task will be until "Kick-off" in January when the game is announced. 
-The challenge is usually to manipulate game pieces along with your team mates (robots created by other teams) to score more points than the other 
-team. Last year our task was to build a robot that could move a large ball around the field. Points were awarded for scoring goals, as well as 
-making assists, which were basically passing the ball to another robot on your team, and for them to bring it to the goal and score.</font></p>
+	<br>
+	<br>
+	<center><img src='../assets/team.jpg' height='200px'><br><h5>2014 Team at competition</h5></img></center>
+	<div id="kerning">
+		<p>The Palmer Ridge Robotics Team 4068, Palmer Ridge Bearbotics, represents Lewis Palmer School District #38 at FRC - the FIRST Robotics Competition. Membership is open to any high schooler in D38.<br /></p>
+		<p>Every year, the team is presented with a game from FIRST, for which we must design, build, and program a robot from scratch. The game is kept secret until the Kickoff on the first Saturday of January, when FIRST announces the game live across the world. The challenge always involves using the robot to manipulate game pieces along with an alliance, a group of other teams and their robots, with whom the robot must collaborate to score points through mechanisms provided in game. <br /></p>
+		<p>In 2014, the game was to construct a robot to move an exercise ball around the field. Points were awarded for scoring goals, and additional points could be scored by making assists by passing the ball between robots. Additionally, there was a truss over which any robot could pass the ball to gain a ten point bonus. The game began with an autonomous period during which the robots were operated solely by their programming. After that begins the Teleop period, during which the robot is controlled by drivers. <br /></p>
+		<p>PRHS Bearbotics has competed in three competitions, and during the rookie season, won the Rookie Inspiration Award, which is given to the rookie team with the most potential.</p>
+	</div>
 </div>
 </body>
 </html>
