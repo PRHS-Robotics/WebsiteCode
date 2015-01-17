@@ -1,6 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^(www.)?prrobotics.com$
+<<<<<<< HEAD
 RewriteCond %{REQUEST_URI} !^/www/prrobotics/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -10,3 +11,15 @@ RewriteRule ^www/prrobotics/(/)?$ http://prrobotics/index.php [L]
 
 
 
+=======
+RewriteCond %{REQUEST_URI} !^/www/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /www/$1
+RewriteCond %{HTTP_HOST} ^(www.)?prrobotics.com$
+RewriteRule ^(/)?$ www/index.php [L]
+<FilesMatch /secure/*.*>
+Deny from All
+</FilesMatch>
+ErrorDocument 404 /www/404.html
+>>>>>>> FETCH_HEAD
